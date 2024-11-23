@@ -9,30 +9,33 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city" required/>
-            <input type="submit" value="search"/>
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city" required class="search-form-input"/>
+            <input type="submit" value="search" class="search-form-button"/>
 
         </form>
 
     </header>
+    <div class="weather-app-data">
     <main>
         <div>
-    <h1>North West</h1>
-    <p>
+    <h1 class="weather-app-city">North West</h1> 
+    <p >
         <strong> Mostly sunny</strong>
         <br/>
-        Humidity:16%
+        Humidity:<strong>16%</strong>
         <br/>
-        Wind: 16 km/h
+        Wind: <strong>16km/h</strong> 
     </p>
     </div>
-    <div>
-        <strong>33</strong>&deg;🌤️
+        
+        <strong>33&deg;</strong>🌤️
         <br/>
         Feels like 33&deg;
     </div>
+</div>
 </main>
+    </div>
 <br/>
    <footer>
     Coded by
