@@ -5,26 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/index.css">
     <script src="https//cdn.jsdelivr.net/npm/axios@1.1.2ldislaxiso.min.js"></script>
-    <title>Meteo App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>My Weather App</title>
 </head>
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form" id="search-form">
-            <input type="search" placeholder="Enter a city.." 
+        <form class="search-form"
+         id="search-form">
+            <input type="search" 
+            placeholder="Enter a city.." 
             required
             id="search-form-input"
             class="search-form-input"/>
-            <input type="submit" value="search" class="search-form-button"/>
+            <input type="submit" value="search" 
+            class="search-form-button"/>
 
         </form>
 
     </header>
-    <div class="weather-app-data">
     <main>
+    <div
+     class="weather-app-data">
+    
         <div>
-    <h1 class="weather-app-city" id="city">North West</h1> 
-    <p class="weather-app-details">
+    <h1 class="weather-app-city" 
+    id="city">North West</h1> 
+    <p 
+    class="weather-app-details">
  
         Monday <span id="time">15:33</span>
      ,scattered clouds <span id="description"></span>
@@ -38,19 +48,124 @@
     
     <div class="weather-app-temperature-container">
     <div id="icon">
-        <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-        class="weather-app-icon"/>
+    <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+    class="weather-app-icon"/>
     <div class="weather-app-temperature" id="temperature&deg;"></div>
     <div class="weather-app-unit" id="unit">C</div>
 
+</div>
 </div>
     </div>
 </div>
 </div>
 </div>
 <div class="weather-forecast" id="forecast"></div>
+<p
+    class="weather-app-details">
+    <span id="time">Tuesday </span>
+        21:48</span>,
+        <span
+        id="description"></span>
+        <br/>
+        Humidity:
+        <strong id="humidity"></strong>
+        <strong id="wind-speed"></strong>
+</p>
+</p>
 </main>
     </div>
+
+    <div
+    class="weather-forecast"></div>
+    <div
+    class="weather-forecast-day"></div>
+    <div
+    class="col-2">Thru</div>
+    <div
+    class="weather-forecast-date"></div>
+    <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clousd-day.png"
+    alt=""
+    width="40"/>
+    <div class="weather-temperatures-forecast"></div>
+    <span class="weather-temperature-forecast-max">18&deg;C</span>
+    <span class="weather-temperature-forecast-min">12&deg;C</span>
+</div>
+<div
+class="weather-forecast"></div>
+<div
+class="weather-forecast-day"></div>
+<div
+class="col-2">Thru</div>
+<div
+class="weather-forecast-date"></div>
+<img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clousd-day.png"
+alt=""
+width="40"/>
+<div class="weather-temperatures-forecast"></div>
+<span class="weather-temperature-forecast-max">18&deg;C</span>
+<span class="weather-temperature-forecast-min">12&deg;C</span>
+</div>
+<div
+class="weather-forecast"></div>
+<div
+class="weather-forecast-day"></div>
+<div
+class="col-2">Thru</div>
+<div
+class="weather-forecast-date"></div>
+<img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clousd-day.png"
+alt=""
+width="40"/>
+<div class="weather-temperatures-forecast"></div>
+<span class="weather-temperature-forecast-max">18&deg;C</span>
+<span class="weather-temperature-forecast-min">12&deg;C</span>
+</div>
+<div
+class="weather-forecast"></div>
+<div
+class="weather-forecast-day"></div>
+<div
+class="col-2">Thru</div>
+<div
+class="weather-forecast-date"></div>
+<img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clousd-day.png"
+alt=""
+width="40"/>
+<div class="weather-temperatures-forecast"></div>
+<span class="weather-temperature-forecast-max">18&deg;C</span>
+<span class="weather-temperature-forecast-min">12&deg;C</span>
+</div>
+<div
+class="weather-forecast"></div>
+<div
+class="weather-forecast-day"></div>
+<div
+class="col-2">Thru</div>
+<div
+class="weather-forecast-date"></div>
+<img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clousd-day.png"
+alt=""
+width="40"/>
+<div class="weather-temperatures-forecast"></div>
+<span class="weather-temperature-forecast-max">18&deg;C</span>
+<span class="weather-temperature-forecast-min">12&deg;C</span>
+</div>
+<div
+class="weather-forecast"></div>
+<div
+class="weather-forecast-day"></div>
+<div
+class="col-2">Thru</div>
+<div
+class="weather-forecast-date"></div>
+<img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clousd-day.png"
+alt=""
+width="40"/>
+<div class="weather-temperatures-forecast"></div>
+<span class="weather-temperature-forecast-max">18&deg;C</span>
+<span class="weather-temperature-forecast-min">12&deg;C</span>
+</div>
+
 <br/>
    <footer>
     Coded by

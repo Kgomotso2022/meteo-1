@@ -1,5 +1,8 @@
 body{
-    background-color: aliceblue;
+    
+    background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Desktop-Wallpaper.jpg");
+
+
 }
 a{
     color: purple;
@@ -14,14 +17,29 @@ header{
     margin-top: 30px;
 }
 .weather-forecast-date{
-
+    text-align: center;
+    color: rgba(39, 33, 66, 0.04);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
 }
-
+.weather-forecast-icon{
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 0 auto;
+}
+.weather-forecast-temperature{
+    text-align: center;
+    color: #f65282;
+    display: flex;
+    justify-content: center;
+}
 .weather-app-temperature-container{
     display: flex;
 }
 .weather-app{
-    background: white;
+    background-color:white;
     max-width: 600px;
     margin: 30px auto;
     padding: 30px;
@@ -41,13 +59,47 @@ main{
 .weather-app-city{
     margin: 0;
     font-size: 38px;
-    line-height: 48px;
+    display: inline-block;
+    white-space: nowrap;
+
 }
 .weather-app-details{
+    margin-top:-4% ;
     font-size: 16px;
     line-height: 24px;
     color: rgba(39, 33, 66, 0.04);
     font-weight: 500;
+}
+.weather-app-temperature-value{
+    font-size: 60px;
+    margin-top: 0%;
+    line-height: 48%;
+    font-weight: 500;
+}
+.weather-forecast{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.weather-forecast-day{
+    margin: 0 10px;
+    text-align: center;
+}
+.weather-forecast-date{
+    font-size: 16px;
+    color: black;
+}
+.weather-temperatures-forecast{
+    font-size: 13px;
+    
+}
+.weather-temperature-forecast-max{
+    font-size: 16px;
+    opacity: 0.4;
+}
+
+.weather-temperature-forecast-min{
+    opacity: 0.4;
 }
 strong{
     color: red;
@@ -56,20 +108,21 @@ strong{
     display: flex;
 }
 .weather-app-icon{
-    font-size: 88px;
-    margin-top: 44px;
+    margin-top: -10px;
+    margin-left: auto;
 }
 .weather-app-temperature{
     font-size: 88px;
     margin-left: 10px;
+    list-style: 88px;
     font-weight: bold;
 }
 .weather-app-unit{
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 6px;
+    font-size: 28px;
 }
 .search-form-input{
-    background-color:aliceblue ;
+    background: aliceblue;
     border: none;
     border-radius: 6px;
     width: 80%;
@@ -88,9 +141,10 @@ strong{
 
 
 footer{
-    border-top: 1px solid aquamarine;
+    border-top: 1px solid black;
     padding: 30px 0 0 0;
     font-weight: bold;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
+    
 }
