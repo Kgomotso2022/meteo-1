@@ -35,35 +35,34 @@
     id="city">North West</h1> 
     <p 
     class="weather-app-details">
+    <br/>
  
-        Monday <span id="time">15:33</span>
+        Monday <span id="time"><strong>15:33</strong></span>
      ,scattered clouds <span id="description"></span>
+        <br/>
+        Feel like <strong>33&deg;C</strong>
         <br/>
         Humidity:<strong id="humidity">16%</strong>,
         Wind:<strong id="wind-speed">16 km/h</strong>
-
 
     </p>
     </div>
     
     <div class="weather-app-temperature-container">
+    <div class="weather-app-temperature" id="temperature&deg;">33&deg;</div>
+    <div class="weather-app-unit" id="unit">C</div>
     <div id="icon">
     <img src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
     class="weather-app-icon"/>
     </div>
-    <div class="weather-app-temperature" id="temperature&deg;">33&deg;</div>
-    <div class="weather-app-unit" id="unit">C</div>
+
 
 </div>
+    </div>
 </div>
-<div class="weather-forecast" id="forecast"></div>
-
-
-                                    
 </div>
-        
-
-
+<div class="weather-forecast" id="forecast"></div>                                   
+</div>
 </main>  
 <br/>
    <footer>
@@ -80,6 +79,6 @@
     hosted on Netlify
    </footer>
 </div> 
-<script src="src/index.js-forecast.js"></script>
+<script src="src/index.forecast.jsx"></script>
 </body>
 </html>
